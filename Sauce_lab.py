@@ -7,9 +7,10 @@ from selenium.webdriver.common.actions import interaction
 from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 import time
+import pytest
  
  
- 
+@pytest.mark.usefixtures("launch_app")
 class Saucelab:
  
     cap = {
