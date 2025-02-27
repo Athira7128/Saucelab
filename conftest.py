@@ -1,7 +1,7 @@
 import json
 import sys
 from pathlib import Path
-sys.path.append(str(path(__file__).parent.parent))
+
 import pytest
  
  
